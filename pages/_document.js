@@ -1,11 +1,11 @@
 import React from "react";
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang='en'>
+    <Html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <body>
         <Main />
