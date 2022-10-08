@@ -18,16 +18,16 @@ const Home = ({ products, banner }) => (
   </>
 );
 
-// export const getServerSideProps = async () => {
-//   const productQuery = "*[_type == \"product\"]";
-//   const products = await client.fetch(productQuery);
+export const getStaticProps = async () => {
+  const productQuery = "*[_type == \"product\"]";
+  const products = await client.fetch(productQuery);
 
-//   const bannerQuery = "*[_type == \"banner\"]";
-//   const banner = await client.fetch(bannerQuery);
+  const bannerQuery = "*[_type == \"banner\"]";
+  const banner = await client.fetch(bannerQuery);
 
-//   return {
-//     props: { products, banner},
-//   }
-// }
+  return {
+    props: { products, banner},
+  }
+}
 
 export default Home;
