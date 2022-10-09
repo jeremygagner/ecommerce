@@ -2,8 +2,6 @@ import "../styles/globals.css";
 
 import React from "react";
 
-import { Head } from "next/document";
-
 import { Toaster } from "react-hot-toast";
 
 import { StateContext } from "../context/StateContext";
