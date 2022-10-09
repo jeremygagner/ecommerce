@@ -13,9 +13,6 @@ import { Layout } from "../components";
 function MyApp({ Component, pageProps }) {
   return (
     <StateContext>
-      <Head>
-          <link rel="shortcut icon" href="/static/favicon.ico" />
-      </Head>
       <Layout>
         <Toaster/>
         <Component {...pageProps} />

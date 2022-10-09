@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
+        <link rel="shortcut icon" href="/static/favicon.ico" />
         <title>boAt Audio</title>
       </Head>
       <header>
