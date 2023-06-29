@@ -1,3 +1,5 @@
-## PURPOSE
-This project is designed by JavascriptMastery to work on Next.js, Sanity and Stripe. This is my take on it (very close to the original).
-All basic functionalities should be implemented and functional.
+# Exquisite E-Commerce
+
+Exquisite E-Commerce is a complete front and back end practice
+putting React.js, Next.js, Sanity and Stripe to work in order
+to power a fully operational e-commerce website.
